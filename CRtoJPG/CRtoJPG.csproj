@@ -55,5 +55,13 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\CRtoJPG.dll" />
+    <Content Include="bin\Debug\CRtoJPG.pdb" />
+    <Content Include="bin\Debug\System.Management.Automation.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
