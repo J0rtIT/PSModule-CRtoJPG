@@ -59,9 +59,9 @@
     <Content Include="bin\Debug\CRtoJPG.dll" />
     <Content Include="bin\Debug\CRtoJPG.pdb" />
     <Content Include="bin\Debug\System.Management.Automation.dll" />
+    <Content Include="bin\Release\CRtoJPG.dll" />
+    <Content Include="bin\Release\CRtoJPG.pdb" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bin\Release\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
